@@ -18,7 +18,7 @@ const devConfig = {
       name: "auth",
       filename: "remoteEntry.js",
       exposes: {
-        "./authApp": "./src/bootstrap",
+        "./AuthApp": "./src/bootstrap",
       },
       shared: packageJson.dependencies,
     }),
